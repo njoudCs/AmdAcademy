@@ -24,7 +24,7 @@
 ## 📸 لقطات شاشة
 
 <p align="center">
-  <img src="" alt="الصفحة الرئيسية" width="600"/>
+  <img src="images/Screenshot 2025-08-02 at 10.13.51.png" alt="الصفحة الرئيسية" width="600"/>
 </p>
 
 <p align="center">
