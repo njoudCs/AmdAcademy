@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Tajawal', sans-serif;
+    color: #fff;
+    direction: rtl;
+  }
+  
+  .page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* الهيدر */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #021c3b;
+    padding: 15px 30px;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  header .logo img {
+    height: 40px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  header nav ul li a:hover {
+    color: #cc5a30;
+  }
+  
+  /* المحتوى */
+  main {
+    flex: 1; /* يتمدد ويدفع الفوتر تحت */
+    padding: 20px;
+  }
+  .divider img {
+    display: block;
+    width: 100%;
+  }
+  

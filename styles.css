@@ -1,0 +1,198 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #021c3b;
+    padding: 15px 30px;
+    color: #fff;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* مسافة بين الشعار والقائمة */
+  }
+   
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #021c3b;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    direction: rtl;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #021c3b;
+    color: #fff;
+    padding: 15px 30px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(90deg,#fefefe,#f5f5f5);
+  }
+  
+  .divider img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .categories {
+    background: linear-gradient(180deg, #FFF8F6 0%, #FFFDFC 100%);
+    padding: 50px 20px;
+    
+  }
+  .categories h2 {
+    color: #082736;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .categories p {
+    color: #082736;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    text-align: right;
+    width: 320px;
+    border: 1px solid #eee;
+  }
+  
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #f8dcdc, #eae9f9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon-circle img {
+    width: 24px;
+    height: 24px;
+  }
+  .card h3 {
+    font-size: 18px;
+    color: #082736;
+    margin-bottom: 12px;
+  }
+  
+  .card p {
+    font-size: 15px;
+    color: #082736;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #investBtn {
+    background-color: #8576FF; /* البنفسجي */
+    color: #082736;           /* النص الغامق */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* بعرض البطاقة */
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  #investBtn:hover {
+    background-color: #6e60d6; /* بنفسجي أغمق عند المرور */
+  }
+  
+  #notinvestBtn {
+    background-color: #b0b0b0; /* البنفسجي */
+    color: #082736;           /* النص الغامق */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* بعرض البطاقة */
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  #notinvestBtn:hover {
+    background-color: #a5a4a4; /* بنفسجي أغمق عند المرور */
+  }
+  
+  
+  .loginBtn{
+    background-color: #827FD8; /* غامق بنفسجي مثلاً */
+    color: #fff; /* لون الخط */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .start-btn{
+    background-color: #827FD8; /* غامق بنفسجي مثلاً */
+    color: #fff; /* لون الخط */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  
+  .hero-text h1 {
+    font-size: 36px;
+    color: #082736; /* الغامق */
+    font-weight: bold;
+  }
+  
+  .hero-text h1 span {
+    color: #CA6C44; /* اللون البرتقالي لكلمة أمد */
+  }
+  
+  .hero-text p {
+    font-size: 20px;
+    color: #082736; /* النص الوصفي */
+    line-height: 1.6;
+  }
+  
+  .hero-text p strong {
+    color: #6A65C2; /* كلمة عماد */
+  }
+  
