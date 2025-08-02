@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>طرق الاستثمار</title>
+  <!-- ملفات التصميم -->
+  <link rel="stylesheet" href="layout.css" />
+  <link rel="stylesheet" href="investmenttype.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- الهيدر -->
+    <header>
+      <div class="right-side">
+        <div class="logo">
+          <img src="images/alinmaLogo.png" alt="شعار الإنماء">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">الأكاديمية</a></li>
+            <li><a href="#">المجالات</a></li>
+            <li><a href="#">الدورات التدريبية</a></li>
+            <li><a href="market.html">سوق الأسهم الافتراضي</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="left-side">
+        <span id="userNameDisplay" style="display:none; color:#fff; font-weight:bold;"></span>
+      </div>
+    </header>    
+  
+     <main>
+ 
+      <div class="hero">
+        <h1>طرق الاستثمار</h1>
+        <p>يمكنك الآن تعلّم طرق الاستثمار المختلفة، من فضلك اختر من القائمة النوع الذي تود التعرّف عليه</p>
+      </div>
+
+      <div class="cards">
+        <!-- الأسهم -->
+        <div class="card active">
+          <div class="left">
+            <div class="badge-circle">
+              <img src="images/coins.png" alt="أيقونة الأسهم">
+            </div>
+            <div class="card-title">الأسهم</div>
+          </div>
+          <button id="investBtn">
+            <span class="btn-text">ابدأ التعلم</span>
+            <span class="arrow">
+              <svg width="14" height="14" viewBox="0 0 16 16">
+                <path d="M6 4 L10 8 L6 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 8 8)"/>
+              </svg>
+            </span>
+          </button>
+        </div>
+
+  <!-- الاستثمار التراكمي -->
+  <div class="card">
+    <div class="left">
+      <div class="badge-circle">
+        <img src="images/coins.png" alt="أيقونة الاستثمار التراكمي">
+      </div>
+      <div class="card-title">الاستثمار التراكمي</div>
+    </div>
+    <button id="notinvestBtn" disabled>
+      <span class="btn-text">قريبًا</span>
+    </button>
+  </div>
+
+  <!-- الصناديق الاستثمارية -->
+  <div class="card">
+    <div class="left">
+      <div class="badge-circle">
+        <img src="images/coins.png" alt="أيقونة الصناديق الاستثمارية">
+      </div>
+      <div class="card-title">الصناديق الاستثمارية</div>
+    </div>
+    <button id="notinvestBtn" disabled>
+      <span class="btn-text">قريبًا</span>
+    </button>
+  </div>
+
+   <!-- الودائع البنكية -->
+   <div class="card">
+    <div class="left">
+      <div class="badge-circle">
+        <img src="images/coins.png" alt="أيقونة الودائع البنكية">
+      </div>
+      <div class="card-title">الودائع البنكية</div>
+    </div>
+    <button id="notinvestBtn" disabled>
+      <span class="btn-text">قريبًا</span>
+    </button>
+  
+  </div>
+</div>
+
+     </main>
+      <div class="divider">
+        <img src="images/LineFooter.png" alt="فاصل زخرفي">
+      </div>
+      <script src="showname.js"></script>
+</body>
+</html>

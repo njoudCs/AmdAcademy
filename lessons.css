@@ -1,0 +1,214 @@
+body {
+  font-family: 'IBM Plex Sans Arabic', Tahoma, sans-serif;
+  background: #f3f2f7;
+  margin: 0;
+  direction: rtl;
+}
+
+.b {
+  width: 100%;
+  position: relative;
+  font-size: 48px;
+  line-height: 75px;
+  display: flex;
+  font-family: 'IBM Plex Sans Arabic';
+  color: #002133;
+  align-items: center;
+  height: 58px;
+  margin-right: 20px; /* مسافة يسار */
+
+}
+
+
+.lessons-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* يخلي النصوص تبدأ من نفس المكان */
+  margin-right: 20px;
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+  font-family: 'IBM Plex Sans Arabic';
+
+}
+
+
+.lessons-header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+
+}
+
+.lessons-section h3 {
+width: 273px;
+position: relative;
+font-size: 16px;
+line-height: 28px;
+display: inline-block;
+font-family: 'IBM Plex Sans Arabic';
+color: #1f2a37;
+}
+
+.lessons-header p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #1f2a37;
+  margin: 0;
+}
+
+
+
+.highlight {
+  color: #1f2a37;
+  font-weight: bold;
+}
+
+.lessons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+
+.lesson-card {
+  background: #fff;
+  border: 1px solid #d2d6db;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+
+.lesson-card.active {
+  border-color: #dca47c;
+}
+
+.lesson-card.locked {
+  opacity: 0.6;
+  filter: grayscale(70%);
+}
+
+.lesson-card.congrats {
+  background: #fff7f2;
+  border-color: #28a745;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+.lesson-img {
+  order: -1; /* 👈 يخلي الصورة قبل النص في العرض */
+  margin-right: 0; 
+  margin-left: 15px; /* مسافة بين الصورة والنص */
+}
+
+.lesson-info {
+  flex: 1;
+  text-align: right; /* يضبط اتجاه النصوص يمين */
+}
+.lesson-title {
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+.lesson-desc {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.lesson-progress {
+  font-size: 13px;
+  color: #777;
+}
+
+.lesson-img img {
+  width: 50px;
+  border-radius: 8px;
+}
+
+.lesson-btn {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lesson-btn.start {
+  background-color: #f3f4f6;
+  color: #002133;
+  height: 40px;
+  width: 168px;
+}
+
+.lessonstatus-btn {
+  margin-left: 30px; /* مسافة يسار */
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans Arabic';
+  font-size: 16px;
+line-height: 24px; 
+position: relative;
+border-radius: 8px;
+background-color: #f9fafb;
+border: 1px solid #e5e7eb;
+box-sizing: border-box;
+width: 97px;
+height: 32px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 12px;
+text-align: center;
+color: #042b42;
+
+}
+
+.lessonstatus-btn.start {
+  position: relative;
+  border-radius: 8px;
+  background-color: #e8cabc;
+  border: 1px solid #be724e;
+  box-sizing: border-box;
+  width: 97px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+  text-align: center;
+  color: #042b42;
+ 
+}
+
+
+.lesson-btn.locked {
+  background-color: #e5e7eb;
+  color: #9da4ae;
+  cursor: not-allowed;
+  height: 40px;
+  width: 168px;
+}
+ 
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
