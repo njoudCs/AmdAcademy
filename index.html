@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أكاديمية أمد</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <!-- الهيدر -->
+  <header>
+    <div class="right-side">
+      <div class="logo">
+        <img src="images/alinmaLogo.png" alt="شعار الإنماء">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">الأكاديمية</a></li>
+          <li><a href="#">المجالات</a></li>
+          <li><a href="#">الدورات التدريبية</a></li>
+          <li><a href="market.html"> سوق الاسهم الافتراضي</a></li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="left-side">
+      <button class="loginBtn">تسجيل الدخول</button>
+      <span id="userNameDisplay" style="display:none; color:#fff; font-weight:bold;"></span>
+    </div>
+  </header>
+
+  <!-- قسم الترحيب -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1> أهلا بك في <span>أكاديمية أمد..</span></h1>
+      <p>رحلة تعليمية تفاعلية مع <strong>عماد</strong>، تعلّم فيها الادخار والاستثمار بأسلوب مبسط يلائم تطلعاتك واحتياجاتك.</p>
+      <button class="start-btn">ابدأ بالتعلم</button>
+    </div>
+    <div class="hero-img">
+      <img src="images/person.png" alt="شخص" />
+    </div>
+  </section>
+
+  <div class="divider">
+    <img src="images/LineFooter.png" alt="فاصل زخرفي">
+  </div>
+
+  <!-- المجالات الرئيسية -->
+  <section class="categories">
+    <h2>المجالات الرئيسية</h2>
+    <p>ابدأ رحلتك بتعلّم مهارات مالية مفيدة، واختر المجال الذي يناسبك من الخيارات التالية</p>  
+    <div class="cards">
+      <div class="card">
+        <div class="icon-circle">
+          <img src="images/coins.png" alt="أيقونة الادخار">
+        </div>
+        <h3>الادخار</h3>
+        <p>تخصيص جزء من الدخل وعدم إنفاقه، بهدف استخدامه لاحقًا.</p>
+        <button id="notinvestBtn">قريبا</button>
+      </div>
+      <div class="card">
+        <div class="icon-circle">
+          <img src="images/money.png" alt="أيقونة الاستثمار">
+        </div>
+        <h3>الاستثمار</h3>
+        <p>استخدام المال في أدوات مالية أو مشاريع بهدف تنميته وزيادة قيمته.</p>
+        <button id="investBtn">عرض أنواع الاستثمار</button>
+      </div>
+      <div class="card">
+        <div class="icon-circle">
+          <img src="images/analysis.png" alt="أيقونة التحليل">
+        </div>
+        <h3>التحليل</h3>
+        <p>دراسة البيانات المالية لفهم الوضع المالي واتخاذ قرارات مدروسة.</p>
+        <button id="notinvestBtn">قريبا</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة | أكاديمية أمد</p>
+  </footer>
+
+  <!-- البوب-أب -->
+  <div id="welcomeModal" class="modal-overlay">
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-text">
+          <h2 id="welcomeUser"></h2>
+          <p>لديك <span class="highlight-orange">5,000 ﷼</span> افتراضي تبدأ به رحلتك التعليمية 🎉</p>
+          <p>خصّصي <b>20% للادخار و80% للاستثمار</b>، ومن المتوقع أن يصل رصيدك بعد 5 أشهر 
+            إلى <span class="highlight-purple">6,500 ﷼</span>.</p>
+          <button id="startvideo" class="popup-button1">تشغيل←</button>
+          <button id="startBtn" class="popup-button">نعم مستعدة للانطلاق ←</button>
+
+        </div>
+        <div class="modal-video">
+          <video id="welcomeVideo" autoplay muted loop playsinline>
+            <source src="videos/welcnora.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

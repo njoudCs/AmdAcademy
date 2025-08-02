@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سوق الأسهم الافتراضي</title>
+  <link rel="stylesheet" href="investment.css">
+</head>
+<body>
+  <header>
+    <h1>سوق الأسهم الافتراضي</h1>
+    <div class="user-info">
+      <span id="userNameDisplay"></span> |
+      الرصيد: <span id="balanceDisplay"></span> ريال
+    </div>
+  </header>
+
+  <main>
+    <h2>الأسهم المتاحة</h2>
+    <table id="stocksTable">
+      <thead>
+        <tr>
+          <th>الشركة</th>
+          <th>السعر الحالي</th>
+          <th>التغير</th>
+          <th>إجراء</th>
+        </tr>
+      </thead>
+      <div id="adviceBox" style="margin-top:20px; font-weight:bold; color:#fff;"></div>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="investment.js"></script>
+</body>
+</html>

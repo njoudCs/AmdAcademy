@@ -1,0 +1,52 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    color: #222;
+  }
+  
+  header {
+    background: #022b3a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #022b3a;
+    color: #fff;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  button.buy {
+    background: #28a745;
+  }
+  
+  button.sell {
+    background: #dc3545;
+  }
+  
