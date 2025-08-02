@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <div class="right-side">
+      <div class="logo">
+        <img src="images/alinmaLogo.png" alt="شعار الإنماء">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">الأكاديمية</a></li>
+          <li><a href="#">المجالات</a></li>
+          <li><a href="#">الدورات التدريبية</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="login-hero">
+    <h1>أهلا بك في <span>أكاديمية أمد..</span></h1>
+    <p>من فضلك اختر الحساب الخاص بك أو أنشئ حساب جديد</p>
+
+    <!-- إدخال اسم جديد -->
+    <div class="add-user">
+        <input type="text" id="userNameInput" placeholder="اكتب اسمك">
+        <button id="saveUserBtn">حفظ</button>
+        <p id="errorMsg" class="error-msg"></p>
+      </div>
+      
+
+    <!-- الكروت -->
+    <div id="usersGrid" class="users-grid"></div>
+  </section>
+
+  <div class="divider">
+    <img src="images/LineFooter.png" alt="فاصل زخرفي">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ 
+
+
+
